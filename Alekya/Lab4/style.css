@@ -1,0 +1,58 @@
+
+table,th,td
+{
+border:1px solid black;
+border-collapse: collapse;
+}
+td
+{
+text-align: center;
+}
+.first p{
+  background-color: yellow;
+}
+.Second > p{
+    background-color: yellow;
+}
+  .Third + p{
+    background-color: yellow;
+}
+  .Fourth ~ p{
+    background-color: yellow;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  p i:first-child {
+    color: blue;
+  } 
+  a[target=Man] {
+    background-color: yellow;
+  }
+  a[target=allu] {
+    background-color: aqua;
+  }
+  [title~=celebrity] {
+    border: 5px solid gold;
+  }
+  h1,h2 {
+    color: green;
+  }
+  
