@@ -1,0 +1,57 @@
+table,th,td
+{
+border:1px solid black;
+border-collapse: collapse;
+}
+td
+{
+text-align: center;
+}
+.first p{
+  background-color: plum;
+}
+.Second > p{
+    background-color: plum;
+}
+  .Third + p{
+    background-color: plum;
+}
+  .Fourth ~ p{
+    background-color: plum;
+}
+
+/* unvisited link */
+a:link {
+    color:yellowgreen;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: violet;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blueviolet;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  p i:first-child {
+    color: red;
+  } 
+  a[target=Vin] {
+    background-color: yellow;
+  }
+  a[target=Pra] {
+    background-color: brown;
+  }
+  [title~=celebrity] {
+    border: 5px solid goldenrod;
+  }
+  h1,h2 {
+    color: green;
+  }
+  
