@@ -1,0 +1,54 @@
+table,th,td
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.first p{background-color: peru;
+}
+.second > p{
+    background-color: peru;
+}
+.third + p{
+    background-color: peru;
+}
+.fourth ~ p{
+    background-color: peru;
+}
+.fifth ~ p{
+    background-color: peru;
+}
+/* unvisited link */
+a:link{
+    color: maroon;
+} 
+/*visited link */
+a:visited {
+    color: greenyellow;
+}
+
+/*mouse over link */
+a:hover {
+    color: palegreen;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+p i:first-child{
+    color: blue;
+}
+a[target=preethi]{
+    background-color: yellow;
+}
+a[target=narne]{
+    background-color: navy;
+}
+[title~=celebrity]{
+    border: 5px solid black;
+}
+h1,h2{
+    color:green;
+}
